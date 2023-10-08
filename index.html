@@ -1,0 +1,818 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School</title>
+
+    <!-- =========== bootstrap css =========== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- =========== font awesome css =========== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+   <!-- =========== owl carousel css =========== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+
+   <!-- =========== floating button css =========== -->
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+    <!-- =========== Aos css =========== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- ===========  custom css ===========  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+
+  <!-- ===========  floating button start ===========  -->
+  <section class="floating-btn-wrapper">
+  
+    <!-- BEGIN :: Floating Action Button -->
+    <div class="floating-action-button">      
+      <!-- BEGIN :: Floating Button -->
+      <div class="share-btn">
+        <ion-icon id="share-icon" name="share-social"></ion-icon>
+        <ion-icon id="close-icon" name="close-sharp"></ion-icon>
+      </div>
+      <!-- END :: Floating Button -->
+      
+       <!-- BEGIN :: Expand Section -->
+       <ul>
+        <li><ion-icon name="logo-twitter"></ion-icon> </li>
+        <li><ion-icon name="logo-facebook"></ion-icon> </li>
+        <li><ion-icon name="logo-whatsapp"></ion-icon></li>
+        <li> <ion-icon name="send-sharp"></ion-icon></li>
+        <li><ion-icon name="logo-instagram"></ion-icon></li>
+       </ul>
+       <!-- END :: Expand Section -->      
+    </div>
+    <!-- END :: Floating Action Button -->
+    
+  </section>
+  <!-- ===========  floating button end ===========  -->
+
+<!-- ===========  header start ===========  -->
+  <header>
+    <nav class = 'navbar navbar-expand-lg navbar-light'>
+        <div class = 'container'>
+            <!-- logo -->
+          <div class="logo">
+            <a class = 'navbar-brand text-white' href = '#'><img src="./assets/images/logo.png" alt=""></a>
+          </div>
+          <button class = ' navbar-toggler border-3 px-2' type = 'button' data-bs-toggle = 'offcanvas'
+                  data-bs-target = '#offcanvasExample' aria-controls = 'offcanvasExample'
+          >
+            <img style = 'width: 30px' src = './assets/images/text-center.svg' alt = 'menu icon'>
+          </button>
+          <div class = 'offcanvas offcanvas-start-lg' tabindex = '-1' id = 'offcanvasExample'
+                aria-labelledby = 'offcanvasExampleLabel'
+          >
+            <div class = 'offcanvas-header d-flex d-lg-none'>
+              <h5 class = 'offcanvas-title text-white' id = 'offcanvasExampleLabel'></h5>
+              <a href='javascript:void(0) '
+                      class = 'text-reset p-0'
+                      data-bs-dismiss = 'offcanvas'
+                      aria-label = 'close'
+              >
+                <svg xmlns = 'http://www.w3.org/2000/svg'
+                      width = '24'
+                      height = '24'
+                      fill = '#FFFFFF'
+                      class = 'bi bi-x-circle'
+                      viewBox = '0 0 16 16'
+                >
+                  <path d = 'M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/>
+                  <path d = 'M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z'/>
+                </svg>
+              </a>
+            </div>
+            <div class = 'offcanvas-body p-lg-0'>
+              <ul class = 'navbar-nav'>
+                <li class = 'nav-item'>
+                  <a class = 'nav-link active' aria-current = 'page' href = '#'>Home</a>
+                </li>
+                <li class = 'nav-item'>
+                  <a class = 'nav-link active' aria-current = 'page' href = '#'>About Us</a>
+                </li>
+                <li class = 'nav-item'>
+                  <a class = 'nav-link active' aria-current = 'page' href = '#'>Events</a>
+                </li>
+                <li class = 'nav-item'>
+                  <a class = 'nav-link active' aria-current = 'page' href = '#'>Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+  </header>
+<!-- =========== header end =========== -->
+    
+    <!-- =========== banner start =========== -->
+    <div class="banner">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12 col-lg-6 mt-lg-0 mt-5" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
+                    <div class="banner-left">
+                      <h1 class="text-white">Best Children’s  Education</h1>
+                      <p class="text-white">Fostering a Culture of Academic Excellence and Lifelong Learning</p>
+                      <a href="#" class="cta-btn">GET STARTED</a>
+                      <a href="#" class="cta-btn">VIEW COURSE</a>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-6" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
+                    <div class="banner-right">
+                        <img src="./assets/images/banner-right.png" alt="banner-right" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =========== banner end =========== -->
+
+    <!-- =========== school values section start =========== -->
+    <section class="school-value" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" data-aos-once="true">
+      <div class="container">
+        <div class="row align-items-center">
+           <div class="col-md-10 mx-auto col-lg-4">
+            <div class="school-left">
+               <h2 class="text-sky">School Values And Excellence</h2>
+               <h5 class="pt-3">Get ahead of the competition and discover trends before become yesterday’s news. Start today smarter than you yesterday.</h5>
+               <ul class="values ps-2 pt-3 mb-4">
+                <li>International reputation</li>
+                <li>Prepares future leaders</li>
+                <li>Moral and spiritual compass</li>
+                <li>Curriculum and instruction</li>
+               </ul>
+               <a href="#" class="cta-btn cta-btn-v2">Find Out More</a>
+            </div>
+           </div>
+
+           <div class="col-md-10 mx-auto col-lg-4">
+            <div class="school-center position-relative">
+              <div class="bg-poster">
+                <img src="./assets/images/videoo.png" alt="video" class="img-fluid">
+              </div>
+              <div class="ripple">
+                <div class="play-btn ">
+                  <button type="button" class="video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/LlCwHnp3kL4" data-bs-target="#myModal">
+                    <i class="fa-solid fa-play"></i>
+                  </button>
+
+                  <!-- popup start -->
+
+                  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                                   
+                        <div class="modal-body">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+                            </button>        
+                            <!-- 16:9 aspect ratio -->
+                            <div class="ratio ratio-16x9">
+                              <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                            </div>                        
+                        </div>
+                  
+                      </div>
+                    </div>
+                  </div> 
+                    
+                 <!-- popup end -->
+                  
+                </div>
+              </div>
+
+            </div>
+           </div>
+
+
+           <div class="col-md-10 mx-auto col-lg-4">
+            <div class="school-right">
+
+              <div class="list-holder d-flex gap-3 align-items-center mb-3">
+                <div class="icon p-3">
+                  <img src="./assets/images/admission.png" alt="admission" class="img-fluid">
+                </div>
+                <div class="title">
+                   <p class="mb-0">ADMISSIONS DOCUMENTS</p>
+                </div>
+                <div class="arrow">
+                 <img src="./assets/images/arrow.png" alt="arrow" class="img-fluid">
+                </div>
+              </div>
+
+              <div class="list-holder d-flex gap-3 align-items-center mb-3">
+                <div class="icon p-3">
+                  <img src="./assets/images/working.png" alt="admission" class="img-fluid">
+                </div>
+                <div class="title">
+                   <p class="mb-0">WORKING HOURS</p>
+                </div>
+                <div class="arrow ps-5">
+                 <img src="./assets/images/arrow.png" alt="arrow" class="img-fluid">
+                </div>
+              </div>
+
+              <div class="list-holder d-flex gap-3 align-items-center mb-3">
+                <div class="icon p-3">
+                  <img src="./assets/images/family.png" alt="admission" class="img-fluid">
+                </div>
+                <div class="title">
+                   <p class="mb-0">FAMILY ACCESS​​</p>
+                </div>
+                <div class="arrow ps-5">
+                 <img src="./assets/images/arrow.png" alt="arrow" class="img-fluid">
+                </div>
+              </div>
+
+              <div class="list-holder d-flex gap-3 align-items-center mb-3">
+                <div class="icon p-3">
+                  <img src="./assets/images/apply.png" alt="admission" class="img-fluid">
+                </div>
+                <div class="title">
+                   <p class="mb-0">APPLY ONLINE​​</p>
+                </div>
+                <div class="arrow ps-5">
+                 <img src="./assets/images/arrow.png" alt="arrow" class="img-fluid">
+                </div>
+              </div>
+
+              <div class="list-holder d-flex gap-3 align-items-center mb-3">
+                <div class="icon p-3">
+                  <img src="./assets/images/happning.png" alt="admission" class="img-fluid">
+                </div>
+                <div class="title">
+                   <p class="mb-0">WHAT'S HAPPENING​​</p>
+                </div>
+                <div class="arrow ps-5">
+                 <img src="./assets/images/arrow.png" alt="arrow" class="img-fluid">
+                </div>
+              </div>
+
+            </div>
+           </div>
+
+
+        </div>
+      </div>
+    </section>
+    <!-- =========== school values section end =========== -->
+
+    <!-- =========== smart programs section start =========== -->
+     <section class="smart-programs" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" data-aos-once="true">
+      <div class="container">
+        <div class="row gy-3">
+          <div class="col-md-12 text-center mb-5">
+            <h2>Smart Programs</h2>
+          </div>
+
+          <div class="col-md-6 col-xl-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
+             <div class="smart-program-holder">
+              <div class="icon">
+                <img src="./assets/images/toddler.png" alt="toddler" class="img-fluid">
+              </div>
+
+              <div class="content">
+                  <h4>Toddler</h4>
+                  <h5>(1,5 – 3 years)</h5>
+                  <p>By creating a safe, consistent and welcoming environment, we help</p>
+              </div>
+             </div>
+          </div>
+
+
+          <div class="col-md-6 col-xl-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
+            <div class="smart-program-holder">
+             <div class="icon">
+               <img src="./assets/images/preschool.png" alt="toddler" class="img-fluid">
+             </div>
+
+             <div class="content">
+                 <h4>Preschool</h4>
+                 <h5>(2 – 3 years)</h5>
+                 <p>With a balance of self-directed play and thoughtful teacher</p>
+             </div>
+            </div>
+         </div>
+
+
+         <div class="col-md-6 col-xl-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
+          <div class="smart-program-holder">
+           <div class="icon">
+             <img src="./assets/images/kindergarten.png" alt="toddler" class="img-fluid">
+           </div>
+
+           <div class="content">
+               <h4>Kindergarten</h4>
+               <h5>(3 – 4 years)</h5>
+               <p>A small class size and exceptional teachers enable Smarty to offer</p>
+           </div>
+          </div>
+         </div>
+
+
+        <div class="col-md-6 col-xl-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
+          <div class="smart-program-holder">
+          <div class="icon">
+            <img src="./assets/images/k.png" alt="toddler" class="img-fluid">
+          </div>
+
+          <div class="content">
+              <h4>Pre-K Program</h4>
+              <h5>(4 – 5 years)</h5>
+              <p>Our school follows the guidelines of the local school district in order to</p>
+          </div>
+          </div>
+        </div>
+
+
+        </div>
+      </div>
+     </section>
+    <!-- =========== smart programs section end =========== -->
+
+    <!-- =========== Filter section start =========== -->
+    <section class="school-info"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" data-aos-once="true">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-10 mx-auto text-center">
+            <h2>About BGSVS </h2>
+            <p>About Sri Adichunchanagiri Shikshana Trust (R.)
+              With the aim of advancing the cause of Education and diffusion of knowledge to the masses, Sri Adichunchanagiri Shikshana Trust (R.) was established in 1973 by His Holiness Jagadguru Sri Sri Sri Padmabhushana Dr. Balagangadharanatha Mahaswamiji.</p>
+          </div>
+          <div data-js="hero-demo">
+            <div class="ui-group">
+              <div class="filters button-group js-radio-button-group device-type">
+                <button class="button is-checked" data-filter="*">All</button>
+                <button class="button" data-filter=".about-bgsvs">About BGSVS</button>
+                <button class="button" data-filter=".infrastructure">Infrastructure</button>
+                <button class="button" data-filter=".academics">Academics</button>
+          
+              </div>
+            </div>
+          
+            <ul class="grid">
+
+              <li class="element-item infrastructure" data-category="infrastructure" >
+                <div class="portfolio-wrapper">
+                   <div class="portfolio-img">
+                  <img src="./assets/images/sports.jpg" alt="gallery-img">
+                   </div>
+                   <div class="work-info">
+                    <a href="https://bpi.rfw.mybluehost.me/prewery/services/blog-articals/" class="view-item-icon"><img src="https://bpi.rfw.mybluehost.me/prewery/wp-content/themes/prewey/assets/images/arrow-up.svg" alt=""></a>
+                    <a href="https://bpi.rfw.mybluehost.me/prewery/services/blog-articals/" class="view-item-btn">Learn More</a>
+                   </div>
+                   <div class="portfolio-text px-3 text-center pt-3">
+                      <h4 class="text-sky">Sports</h4>
+                      <p class="line-clamp">The importance of sports in the life of a young student is invaluable and goes ...</p>
+                   </div>
+                </div>
+              </li>
+
+              <li class="element-item infrastructure" data-category="infrastructure" >
+                <div class="portfolio-wrapper">
+                   <div class="portfolio-img">
+                  <img src="./assets/images/library.jpg" alt="gallery-img">
+                   </div>
+                   <div class="work-info">
+                    <a href="https://bpi.rfw.mybluehost.me/prewery/services/blog-articals/" class="view-item-icon"><img src="https://bpi.rfw.mybluehost.me/prewery/wp-content/themes/prewey/assets/images/arrow-up.svg" alt=""></a>
+                    <a href="https://bpi.rfw.mybluehost.me/prewery/services/blog-articals/" class="view-item-btn">Learn More</a>
+                   </div>
+                   <div class="portfolio-text px-3 text-center pt-3">
+                      <h4 class="text-sky">Library</h4>
+                      <p class="line-clamp">The library at BGS VIJNATHAM SCHOOL is the gateway to the wonderful world of books...</p>
+                   </div>
+                </div>
+              </li>
+
+              <li class="element-item infrastructure" data-category="infrastructure" >
+                <div class="portfolio-wrapper">
+                   <div class="portfolio-img">
+                  <img src="./assets/images/it.jpg" alt="gallery-img">
+                   </div>
+                   <div class="work-info">
+                    <a href="https://bpi.rfw.mybluehost.me/prewery/services/blog-articals/" class="view-item-icon"><img src="https://bpi.rfw.mybluehost.me/prewery/wp-content/themes/prewey/assets/images/arrow-up.svg" alt=""></a>
+                    <a href="https://bpi.rfw.mybluehost.me/prewery/services/blog-articals/" class="view-item-btn">Learn More</a>
+                   </div>
+                   <div class="portfolio-text px-3 text-center pt-3">
+                      <h4 class="text-sky">IT Labs</h4>
+                      <p class="line-clamp">We live in an ever evolving environment. It is totally necessary for children...</p>
+                   </div>
+                </div>
+              </li>
+
+              <li class="element-item about-bgsvs" data-category="about-bgsvs" >
+                <div class="portfolio-wrapper">
+                  <div class="portfolio-img">
+                 <img src="./assets/images/core-virtues.png" alt="gallery-img">
+                  </div>
+                  <div class="work-info">
+                   <a href="https://bpi.rfw.mybluehost.me/prewery/services/blog-articals/" class="view-item-icon"><img src="https://bpi.rfw.mybluehost.me/prewery/wp-content/themes/prewey/assets/images/arrow-up.svg" alt=""></a>
+                   <a href="https://bpi.rfw.mybluehost.me/prewery/services/blog-articals/" class="view-item-btn">Learn More</a>
+                  </div>
+                  <div class="portfolio-text px-3 text-center pt-3">
+                     <h4 class="text-sky">Core Virtues</h4>
+                     <p class="line-clamp">Knowledge and wisdom are paths that lead to self-realization. In this...</p>
+                  </div>
+               </div>
+              </li>
+
+              <li class="element-item about-bgsvs" data-category="about-bgsvs" >
+                <div class="portfolio-wrapper">
+                   <div class="portfolio-img">
+                  <img src="./assets/images/philosophy.jpg" alt="gallery-img">
+                   </div>
+                   <div class="work-info">
+                    <a href="https://bpi.rfw.mybluehost.me/prewery/services/blog-articals/" class="view-item-icon"><img src="https://bpi.rfw.mybluehost.me/prewery/wp-content/themes/prewey/assets/images/arrow-up.svg" alt=""></a>
+                    <a href="https://bpi.rfw.mybluehost.me/prewery/services/blog-articals/" class="view-item-btn">Learn More</a>
+                   </div>
+                   <div class="portfolio-text px-3 text-center pt-3">
+                      <h4 class="text-sky">Philosophy</h4>
+                      <p class="line-clamp">We are committed to creating and supporting a diverse and inclusive learning...</p>
+                   </div>
+                </div>
+              </li>
+
+
+              <li class="element-item infrastructure" data-category="infrastructure" >
+                <div class="portfolio-wrapper">
+                   <div class="portfolio-img">
+                  <img src="./assets/images/visual.jpg" alt="gallery-img">
+                   </div>
+                   <div class="work-info">
+                    <a href="https://bpi.rfw.mybluehost.me/prewery/services/blog-articals/" class="view-item-icon"><img src="https://bpi.rfw.mybluehost.me/prewery/wp-content/themes/prewey/assets/images/arrow-up.svg" alt=""></a>
+                    <a href="https://bpi.rfw.mybluehost.me/prewery/services/blog-articals/" class="view-item-btn">Learn More</a>
+                   </div>
+                   <div class="portfolio-text px-3 text-center pt-3">
+                      <h4 class="text-sky">Visual Arts</h4>
+                      <p class="line-clamp">Visual arts education is the area of learning that is based upon only the kind of art ...</p>
+                   </div>
+                </div>
+              </li>
+
+
+              <li class="element-item academics" data-category="academics" >
+                <div class="portfolio-wrapper">
+                   <div class="portfolio-img">
+                  <img src="./assets/images/curriculam.jpg" alt="gallery-img">
+                   </div>
+                   <div class="work-info">
+                    <a href="https://bpi.rfw.mybluehost.me/prewery/services/blog-articals/" class="view-item-icon"><img src="https://bpi.rfw.mybluehost.me/prewery/wp-content/themes/prewey/assets/images/arrow-up.svg" alt=""></a>
+                    <a href="https://bpi.rfw.mybluehost.me/prewery/services/blog-articals/" class="view-item-btn">Learn More</a>
+                   </div>
+                   <div class="portfolio-text px-3 text-center pt-3">
+                      <h4 class="text-sky">Curriculam & Learning</h4>
+                      <p class="line-clamp">Curriculum Pedagogy is the science and art of education. In sync with our mission & philosophy,...</p>
+                   </div>
+                </div>
+              </li>
+
+
+
+              <li class="element-item academics" data-category="academics" >
+                <div class="portfolio-wrapper">
+                   <div class="portfolio-img">
+                  <img src="./assets/images/teaching.jpg" alt="gallery-img">
+                   </div>
+                   <div class="work-info">
+                    <a href="https://bpi.rfw.mybluehost.me/prewery/services/blog-articals/" class="view-item-icon"><img src="https://bpi.rfw.mybluehost.me/prewery/wp-content/themes/prewey/assets/images/arrow-up.svg" alt=""></a>
+                    <a href="https://bpi.rfw.mybluehost.me/prewery/services/blog-articals/" class="view-item-btn">Learn More</a>
+                   </div>
+                   <div class="portfolio-text px-3 text-center pt-3">
+                      <h4 class="text-sky">TEACHING TOOL STRATEGIES</h4>
+                      <p class="line-clamp">At BGS, classrooms are dynamic learning spaces that bring together students ...</p>
+                   </div>
+                </div>
+              </li>
+
+              
+              <li class="element-item about-bgsvs" data-category="about-bgsvs" >
+                <div class="portfolio-wrapper">
+                  <div class="portfolio-img">
+                 <img src="./assets/images/mission.png" alt="gallery-img">
+                  </div>
+                  <div class="work-info">
+                   <a href="https://bpi.rfw.mybluehost.me/prewery/services/blog-articals/" class="view-item-icon"><img src="https://bpi.rfw.mybluehost.me/prewery/wp-content/themes/prewey/assets/images/arrow-up.svg" alt=""></a>
+                   <a href="https://bpi.rfw.mybluehost.me/prewery/services/blog-articals/" class="view-item-btn">Learn More</a>
+                  </div>
+                  <div class="portfolio-text px-3 text-center pt-3">
+                     <h4 class="text-sky">Mission & Vision</h4>
+                     <p class="line-clamp">The word "Vijnatham" is an amalgamation of three words – Science, Knowledge and Technology....</p>
+                  </div>
+               </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========== Filter section end =========== -->
+
+   <!-- =========== school stats section start =========== -->
+     <section id="school-stats" class="school-stats"  data-aos-duration="1500" data-aos-delay="300" data-aos-once="true">
+      <div class="container">
+          <div class="row text-center">
+            <div class="col-md-12 text-center mb-5">
+              <h2>School Statistics Hub</h2>
+            </div>
+              <div class="col-xs-12 col-md-3 col-sm-6">
+                  <div class="counter">
+                      <h2> <span class="count">12</span>+</h2>
+                      <p class="stats-text">Faculty Full Time</p>
+                      <div class="icon">
+                        <img src="./assets/images/stat1.png" alt="stat" class="img-fluid">
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-md-3 col-sm-6">
+                  <div class="counter">
+                      <h2> <span class="count">220</span>+</h2>
+                      <p class="stats-text">Students Enrolled</p>
+                      <div class="icon">
+                        <img src="./assets/images/stat2.png" alt="stat" class="img-fluid">
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-md-3 col-sm-6">
+                  <div class="counter">
+                      <h2> <span class="count">550</span>+</h2>
+                      <p class="stats-text">Courses & videos</p>
+                      <div class="icon">
+                        <img src="./assets/images/stat3.png" alt="stat" class="img-fluid">
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-md-3 col-sm-6">
+                  <div class="counter">
+                      <h2> <span class="count">97.5</span>%</h2>
+                      <p class="stats-text">Results</p>
+                      <div class="icon">
+                        <img src="./assets/images/stat4.png" alt="stat" class="img-fluid">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+    <!-- =========== school stats section end =========== -->
+
+    <!-- =========== our mission section start =========== -->
+    <section class="our-mission">
+      <div class="container">
+        <div class="row align-items-center gy-3">
+          <div class="col-md-10 mx-auto col-lg-6" data-aos="fade-right" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">
+            <div class="our-mission-left">
+              <img src="./assets/images/our-mission-left.png" alt="our-mission" class="img-fluid">
+            </div>
+          </div>
+
+          <div class="col-md-10 mx-auto col-lg-6" data-aos="fade-left" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">
+            <div class="mission-right">
+              <h2>Our Mission and Values</h2>
+              <p>our mission is to provide an exceptional and holistic education that nurtures the intellectual, social, emotional, and physical development of our students. We are dedicated to fostering a love of learning, cultivating critical thinking skills, and instilling a sense of responsibility and compassion in our students. Our commitment to academic excellence is unwavering, and we strive to prepare our students to excel in an ever-changing world.</p>
+
+              <ul class="mission">
+                <li class="mb-4"><span>Excellence:</span> We uphold the highest standards of academic achievement and personal growth, empowering our students to reach their full potential.</li>
+                <li class="mb-4"><span>Integrity:</span> We value honesty, respect, and ethical behavior in all our interactions, promoting a culture of trust and responsibility within our school community.</li>
+                <li class="mb-4"><span>Diversity and Inclusion:</span> We embrace diversity in all its forms, fostering an inclusive environment where every individual feels valued, respected, and supported.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========== our mission section end =========== -->
+
+    <!-- =========== our promise section start =========== -->
+    <section class="our-mission our-promise">
+      <div class="container">
+        <div class="row align-items-center gy-3">
+
+
+          <div class="col-md-10 mx-auto col-lg-6" data-aos="fade-right" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
+            <div class="our-promise-left">
+              <h2>Our Promise</h2>
+              <p>we promise to provide an educational experience that prepares students not only for academic success but also for a life of purpose, leadership, and service. We are dedicated to nurturing well-rounded individuals who are not only knowledgeable but also compassionate, responsible, and ready to make a positive impact on the world.</p>
+
+
+              <h2>Join Us</h2>
+
+              <p>We invite you to join our vibrant and inclusive learning community . Explore our website to learn more about our programs, faculty, and campus. We look forward to partnering with you in shaping a brighter future for your child.</p>
+
+              <p> Feel free to adapt and expand upon this content to align with your school's unique mission and values. Remember to keep the language clear, concise, and engaging to effectively communicate your school's identity and aspirations to your website visitors. </p>
+
+            </div>
+          </div>
+
+          <div class="col-md-10 mx-auto col-lg-6" data-aos="fade-left" data-aos-delay="500" data-aos-duration="800" data-aos-once="true" >
+            <div class="our-promise-right">
+              <img src="./assets/images/promise.png" alt="our-mission" class="img-fluid">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- =========== our promise section end =========== -->
+
+    <!-- =========== parents says section start =========== -->
+    <section class="testimonial-sec" data-aos-duration="1500" data-aos-delay="300" data-aos-once="true">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center mb-5">
+            <h2>Parents says</h2>
+          </div>
+          <div class="testimonial-wrapper  text-center col-md-8 mx-auto">
+               <div class="quote-icon d-inline-block">
+                 <img src="./assets/images/quote-icon.png" alt="quote" class="img-fluid">
+               </div>
+
+              <div class="owl-carousel  mt-5" id="parents-carousel">
+                      <div class="item">
+                          <div class="review-holder">
+                            <p class="review">Our family has had an amazing experience with BGS. The dedication of the teachers and staff is truly remarkable. Our children have thrived academically and socially, and we couldn't be happier with our decision to enroll them here. The school's commitment to excellence shines through in everything they do.</p>
+
+                            <h4 class="name">Harsh Mehta</h4>
+                            <p class="student">Father Of Rishabh Mehta</p>
+
+                          </div>
+                      </div>
+
+                       <div class="item">
+                        <div class="review-holder">
+                          <p class="review">As a father, I want the best possible educational experience for my child, and I'm delighted to say that BGS has consistently exceeded our expectations. My child has been attending BGS for the 1st class, and I couldn't be happier with their growth and development during this time.</p>
+
+                          <h4 class="name">Vinod Rana</h4>
+                          <p class="student">Father Of Deepeak Rana</p>
+
+                        </div>
+                       </div>
+  
+                       <div class="item">
+                      <div class="review-holder">
+                        <p class="review">The school's facilities and resources are modern and well-maintained, providing a conducive environment for learning. The library, labs, and sports facilities are impressive and support a holistic educational experience.</p>
+
+                        <h4 class="name">Anuj bhandari</h4>
+                        <p class="student">Father Of Ankit bhandari</p>
+
+                      </div>
+                       </div>
+                </div>
+
+                <div class="navigation-img-wrapper ">
+                  <div class="navigator" data-item="0"><img src="./assets/images/parents.png" alt="" class="navigator-img"></div>
+                  <div class="navigator" data-item="1"><img src="./assets/images/parents-2.png" alt="" class="navigator-img"></div>
+                  <div class="navigator" data-item="2"><img src="./assets/images/parents 3.png" alt="" class="navigator-img"></div>
+                </div>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========== parents says section end =========== -->
+
+    <!-- =========== Footer =========== -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+              <div class="row pb-5">
+
+                <div class="col-md-6 col-lg-3 col-sm-6 widget ps-0">
+    
+                    <div class="logo">
+                      <a href="#"> <img src="./assets/images/logo.png" alt="logo" class="img-fluid"></a>
+                    </div>
+    
+                    <div class="address-details pt-3 pt-lg-4 pb-1 d-flex gap-3">
+                    <i class="fa-solid fa-location-dot"></i>
+                      <ul class="ps-0">
+                          <li class="pb-2"> <b>BGS VIJNATHAM SCHOOL</b> </li>  
+                          <li>Plot No.2, Tech Zone VII</li>
+                          <li> Greater Noida (West)- 203207</li>                           
+                      </ul>
+                    </div>
+    
+                    <div class="address-details pt-3 pt-lg-4 pb-1 d-flex gap-3">
+                    <i class="fa-solid fa-phone"></i>
+                      <a href="#">(916) 782-9494, (916) 782-9949</a>
+                    </div>
+                    
+                    <div class="address-details pt-3 pt-lg-4 d-flex gap-3">
+                    <i class="fa-solid fa-envelope"></i>
+                      <a href="#">info@BGS.com</a>
+                    </div>
+    
+
+                  
+                </div>
+    
+                <div class="col-md-6 col-lg-3 col-sm-6 widget">
+                  <h5 class="text-capitalize text-white">Navigation</h5>
+               
+
+                  
+                  <ul class="ps-0">
+                    <li class="text-capitalize pt-3"><a href="#">  Home </a></li>
+                    <li class="text-capitalize pt-3"><a href="#"> About Us </a></li>
+                    <li class="text-capitalize pt-3"><a href="#"> Academics </a></li>
+                    <li class="text-capitalize pt-3"><a href="#"> Student Life</a></li>
+                    <li class="text-capitalize pt-3"><a href="#"> Admission </a></li>
+                  
+                
+                  </ul>
+                </div>
+    
+                <div class="col-md-6 col-lg-3 col-sm-6 widget">
+                    <h5 class="text-capitalize text-white">Links</h5> 
+                    <ul class="ps-0">
+                      <li class="text-capitalize pt-3"><a href="#"> Gallery</a></li>
+                      <li class="text-capitalize pt-3"><a href="#"> Circular</a></li>
+                      <li class="text-capitalize pt-3"><a href="#">Contact Us</a></li>
+                      <li class="text-capitalize pt-3"><a href="#">CYBER SECURITY</a></li>
+                      <li class="text-capitalize pt-3"><a href="#">GUIDELINES DPS FAMILY</a></li>
+                      <li class="text-capitalize pt-3"><a href="#">Disclosure</a></li>
+                    </ul>
+                </div>
+    
+                <div class="col-md-6 col-lg-3 col-sm-6 widget ps-3">
+                    <h5 class="text-capitalize text-white">Subscribe to newsletter</h5>
+                    
+                    <div class="newletter pt-3 d-flex">
+                        <input type="email" placeholder="Input Your Email Here">
+                        <a href="#"><i class="fa-solid fa-paper-plane"></i></a>
+                    </div>
+                    <p class="text-white pt-2">Opt in and receive news you can actually use. </p>
+                    
+                    <div class="addres-info  pt-3 pt-lg-4">
+                      <div class="social-links">
+                          <ul class="inline-listing ps-0">
+                              <li class=""> <a href="#"> <i class="fa-brands fa-facebook-f"></i></a></li>
+                              <li class=""> <a href="#"> <i class="fa-brands fa-instagram"></i></i></a></li>
+                              <li class=""> <a href="#"> <i class="fa-brands fa-twitter"></i></i></a></li>
+                          </ul>
+                      </div>
+                  </div>
+                </div>        
+            </div>
+              </div>
+        </div>
+
+      <div class="footer-bottom">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-10 text-center m-auto">
+
+
+                <ul class="ps-0 mb-0">
+                  <li class="text-white">Copyright © 2023 BGS. All Rights Reserved | Synergy One Lending, Inc., NMLS ID 1907235</li>
+                 
+                </ul>
+
+            </div>
+              
+          </div>
+        </div>
+      </div>
+    </footer> 
+    <!-- =========== End Footer =========== -->
+
+    <!-- =========== back to top btn start =========== -->
+    <a href="javascript:void(0)" id="backToTop" class="back-to-top" style="display:none;">
+      <svg class="icon__arrow-up" viewBox="0 0 24 24">
+        <title>Back to top</title>
+        <path d="M18.71,11.71a1,1,0,0,1-1.42,0L13,7.41V19a1,1,0,0,1-2,0V7.41l-4.29,4.3a1,1,0,0,1-1.42-1.42l6-6a1,1,0,0,1,1.42,0l6,6A1,1,0,0,1,18.71,11.71Z"/>
+      </svg>
+    </a>
+ <!-- =========== back to top btn end =========== -->
+
+     <!-- =========== bootstrap js =========== -->
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"></script>
+
+    <!-- =========== jquery =========== -->
+     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+    <!-- ===========  owl carousel js  =========== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+     <!-- ===========  tab filter js  =========== -->
+    <script src='https://demo-ochre.vercel.app/isotope-docs.min.js'></script>
+
+    <!-- ===========  aos js  =========== -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+     <!-- =========== custom js =========== -->
+     <script src="./assets/js/index.js"></script>
+
+
+</body>
+</html>
+
+
